@@ -1,0 +1,38 @@
+:root {
+    background-color: #121212;
+    color: hsl(0, 0%, 85%)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    height: 630px;
+    width: 630px;
+    border: 2px solid blue;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid purple;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 20px;
+}
